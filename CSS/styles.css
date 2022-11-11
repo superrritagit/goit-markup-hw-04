@@ -333,16 +333,49 @@ img{
     color: var(--secondary-color);
     font-size: 16px;
     line-height: 1.18;
+    
 }
 
 .team-card-description{
     background-color: var(--white-color);
 }
 
+.clients-list{
+    display: flex;
+    gap: 30px;
+}
+
+.clients-list .client{
+    flex-basis: calc((100% - 150px) / 6);
+}
 
 .clients{
     padding-top: 94px;
     padding-bottom: 94px;
+}
+
+.company1{
+    padding: 23px 65px;
+}
+
+.company2{
+    padding: 19px 65px;
+}
+
+.company3 {
+    padding: 23px 65px;
+}
+
+.company4 {
+    padding: 24px 42px;
+}
+
+.company5 {
+    padding: 24px 53px;
+}
+
+.company6 {
+    padding: 22px 38px;
 }
 
 .clients-title{
@@ -372,6 +405,8 @@ img{
     background-color: var(--solutions-bg-color);
     padding-top: 60px;
     padding-bottom: 60px;
+   
+    
 }
 
 
@@ -383,6 +418,28 @@ img{
 
 .adress{
     color: var(--white-color);
+   
+}
+
+.join-us-list{
+    display: flex;
+    gap: 10px;
+}
+
+.social-links{
+    display: flex;
+    
+    
+}
+
+.join-title{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    margin-left: 70px;
+    
 }
 
 .footer-logo{
