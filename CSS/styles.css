@@ -406,9 +406,6 @@ img{
     border-radius: 4px;
 }
 
-.company1{
-    padding: 25px,65px,25px,65px;
-}
 
 /* Футер */
 .page-footer{
@@ -456,14 +453,14 @@ img{
 
 .ellipse:hover{
     background-color: var(--accent-color);
-    color: var(--white-color);
+   
 }
 
 .icon{
-    fill: var(--white-color);
+    fill: currentColor;
 }
 
-.icon:hover{
+.icon-active:hover{
     fill: var(--white-color);
 }
 
