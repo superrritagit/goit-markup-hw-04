@@ -340,6 +340,12 @@ img{
     background-color: var(--white-color);
 }
 
+.team-card-social-links{
+   padding-right: 32px;
+    padding-left: 32px;
+    padding-bottom: 30px;
+}
+
 .clients-list{
     display: flex;
     gap: 30px;
@@ -368,6 +374,10 @@ img{
 
 .company4 {
     padding: 24px 42px;
+}
+
+.company4-color{
+    fill: #AFB1B8;
 }
 
 .company5 {
@@ -409,11 +419,19 @@ img{
     
 }
 
+.footer-box{
+    display: flex;
+    align-items: baseline;
+}
 
 .footer-links{
     font-style: normal;
     font-size: 14px;
     line-height: 1.71;
+}
+
+.social-links{
+    margin-left: 70px; 
 }
 
 .adress{
@@ -426,20 +444,33 @@ img{
     gap: 10px;
 }
 
-.social-links{
-    display: flex;
-    
-    
+.ellipse{
+    background-color: rgba(255, 255, 255, 0.1);
+    color: var(--white-color);
+    border-radius: 50%;
+    width: 44px;
+    height: 44px;
+    text-align: center;
+    padding-top: 12px;
+}
+
+.ellipse:hover{
+    background-color: var(--accent-color);
+    color: var(--white-color);
+}
+
+.icon:hover{
+    fill: var(--white-color);
 }
 
 .join-title{
+    margin-bottom: 20px;
+
     font-weight: 700;
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    margin-left: 70px;
-    
 }
 
 .footer-logo{
