@@ -459,6 +459,10 @@ img{
     color: var(--white-color);
 }
 
+.icon{
+    fill: var(--white-color);
+}
+
 .icon:hover{
     fill: var(--white-color);
 }
