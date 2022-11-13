@@ -355,9 +355,25 @@ img{
     flex-basis: calc((100% - 150px) / 6);
 }
 
-.clients{
+.clients-section{
     padding-top: 94px;
     padding-bottom: 94px;
+}
+
+
+.client-card {
+    width: 170px;
+    height: 92px;
+
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+
+    fill: #AFB1B8;
+}
+
+.client-card:hover{
+    border: 1px solid var(--accent-color);
+    fill: var(--accent-color);
 }
 
 .company1{
@@ -374,10 +390,6 @@ img{
 
 .company4 {
     padding: 24px 42px;
-}
-
-.company4-color{
-    fill: #AFB1B8;
 }
 
 .company5 {
@@ -398,13 +410,6 @@ img{
     text-align: center;
 }
 
-.client{
-    width: 170px;
-    height: 92px;
-    
-    border: 1px solid #AFB1B8;
-    border-radius: 4px;
-}
 
 
 /* Футер */
@@ -436,31 +441,30 @@ img{
    
 }
 
-.join-us-list{
+.join-us-list,
+.footer-join-us-list{
     display: flex;
     gap: 10px;
 }
 
+.join-us-list .link{
+    color: #AFB1B8;
+}
+
+
 .ellipse{
     background-color: rgba(255, 255, 255, 0.1);
-    color: var(--white-color);
     border-radius: 50%;
     width: 44px;
     height: 44px;
     text-align: center;
     padding-top: 12px;
+
+    fill: currentColor;
 }
 
 .ellipse:hover{
     background-color: var(--accent-color);
-   
-}
-
-.icon{
-    fill: currentColor;
-}
-
-.icon-active:hover{
     fill: var(--white-color);
 }
 
@@ -472,6 +476,10 @@ img{
     line-height: 16px;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+}
+
+.footer-join-us-list .link{
+    color: var(--white-color);
 }
 
 .footer-logo{
